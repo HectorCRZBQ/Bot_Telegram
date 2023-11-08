@@ -7,7 +7,7 @@ Este proyecto implementa un bot de Telegram que genera comentarios aleatorios so
 1. Clona el repositorio en tu máquina local.
 2. Asegúrate de tener Python 3 instalado.
 3. Instala las dependencias del proyecto ejecutando `pip install pyTelegramBotAPI`, `pip install requests`, `pip install times`.
-4. Ejecuta el script principal `glc.py`.
+4. Ejecuta el script principal `python glc.py`.
 
 ## Uso
 
