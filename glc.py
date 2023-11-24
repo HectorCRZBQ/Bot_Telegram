@@ -207,8 +207,9 @@ def nuevo_mensaje_f1(message):
 # Comando para mostrar el equipo en el que esta Fernando Alonso
 @bot.message_handler(commands=['equipo'])
 def informacion_equipo(message):
-    equipo_texto = "Fernando Alonso actualmente compite para el equipo Alpine en la Fórmula 1. " \
-                   "Alpine es un equipo de carreras con una rica historia y una fuerte presencia en el automovilismo."
+    equipo_texto = "Aston Martin compite en la Fórmula 1 como Aston Martin Cognizant Formula One Team. " \
+                   "Actualmente, cuenta con pilotos como Sebastian Vettel y Lance Stroll. " \
+                   "El equipo tiene su sede en Silverstone, Reino Unido."
     bot.send_message(message.chat.id, equipo_texto)
 
 
